@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SwiperJS */
+/* 
+body{
+    margin-top: 20px;
+} */
+.btn{
+   
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    object-fit: cover;
+    
+    gap: 2rem;
+
+}
+.btn img{
+    overflow: hidden;
+}
+.right{
+    width: 100px;
+    height: 40px;
+    border: 1px  solid black;
+    
+}
+.left{
+    width: 100px;
+    height: 40px;
+    border: 1px  solid black;
+}
+.wrap {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
